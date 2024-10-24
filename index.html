@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>웹프 중간</title>
+
+    <!-- JQuery Load -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Load -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- script.js Load -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- 전체 배경을 감싸는 컨테이너 -->
+    <div class="sky-background">
+      <!-- 구름 추가 -->
+      <!--<img src="img/cloud01.png" alt="구름1" class="cloud cloud1" />
+      <img src="img/cloud02.png" alt="구름2" class="cloud cloud2" />
+      <img src="img/cloud03.png" alt="구름3" class="cloud cloud3" />-->
+
+      <div class="your-container">
+        <svg
+          class="css-waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="wave-pattern"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            ></path>
+          </defs>
+          <g class="animated-waves">
+            <use
+              href="#wave-pattern"
+              x="100"
+              y="0"
+              fill="rgba(33,129,255,0.7)"
+            ></use>
+            <use
+              href="#wave-pattern"
+              x="100"
+              y="3"
+              fill="rgba(155,255,255,0.5)"
+            ></use>
+            <use
+              href="#wave-pattern"
+              x="100"
+              y="5"
+              fill="rgba(63,185,255,0.3)"
+            ></use>
+            <use
+              href="#wave-pattern"
+              x="100"
+              y="7"
+              fill="rgba(155,255,255,0.3)"
+            ></use>
+            <use
+              href="#wave-pattern"
+              x="100"
+              y="7"
+              fill="rgba(0,119,188,0.7)"
+            ></use>
+          </g>
+        </svg>
+
+        <!-- 배 이미지 추가 -->
+        <img src="img/boat.png" alt="배" class="boat" />
+        <!--타이틀 추가-->
+        <img src="img/title.png" alt="제목" class="title_" />
+      </div>
+    </div>
+  </body>
+</html>
